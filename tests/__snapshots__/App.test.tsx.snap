@@ -1,0 +1,38 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App > App component snapshot test 1`] = `
+<DocumentFragment>
+  <div>
+    <h4>
+      App Component
+    </h4>
+    <p>
+       I am in App component
+    </p>
+    <div>
+      <h3>
+        Home Component
+      </h3>
+      <p
+        data-testid="para"
+      >
+        This is paragraph in Home Component
+      </p>
+    </div>
+    <div>
+      <h5>
+        About Component
+      </h5>
+    </div>
+    <div>
+      Hello, Guest!
+    </div>
+    <div>
+      Gender: NA
+    </div>
+    <div>
+      Loading...
+    </div>
+  </div>
+</DocumentFragment>
+`;
