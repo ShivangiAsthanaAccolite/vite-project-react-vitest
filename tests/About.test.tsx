@@ -9,6 +9,16 @@ describe("About", () => {
     screen.debug(); // prints out the jsx in the App component unto the command line
     expect(screen.getByText("About Component")).toBeInTheDocument();
   });
+
+  it("renders button and input element", () => {
+    render(<About />);
+    expect(screen.getByTestId("button")).toBeDisabled();
+
+    const input = screen.getByTestId("element-to-focus");
+
+    input.focus();
+    expect(input).toHaveFocus();
+  });
 });
 
 describe.todo("unimplemented suite");

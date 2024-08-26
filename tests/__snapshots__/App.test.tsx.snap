@@ -23,6 +23,18 @@ exports[`App > App component snapshot test 1`] = `
       <h5>
         About Component
       </h5>
+      <button
+        data-testid="button"
+        disabled=""
+      >
+        Click Me!
+      </button>
+      <div>
+        <input
+          data-testid="element-to-focus"
+          type="text"
+        />
+      </div>
     </div>
     <div>
       Hello, Guest!
