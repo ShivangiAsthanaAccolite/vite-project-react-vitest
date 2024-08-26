@@ -45,6 +45,7 @@ exports[`App > App component snapshot test 1`] = `
     <div>
       Loading...
     </div>
+    <div />
   </div>
 </DocumentFragment>
 `;
