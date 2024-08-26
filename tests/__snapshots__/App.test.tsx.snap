@@ -46,6 +46,23 @@ exports[`App > App component snapshot test 1`] = `
       Loading...
     </div>
     <div />
+    <form>
+      <input
+        placeholder="Email"
+        type="email"
+        value=""
+      />
+      <input
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Login
+      </button>
+    </form>
   </div>
 </DocumentFragment>
 `;

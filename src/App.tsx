@@ -2,6 +2,7 @@ import "./App.css";
 
 import About from "./component/About";
 import Home from "./component/Home";
+import LoginForm from "./component/LoginForm";
 import MyComponent from "./component/MyComponent";
 import { UserGreeting } from "./component/UserGreeting";
 import UserList from "./component/UserList";
@@ -17,6 +18,7 @@ function App() {
         <UserGreeting />
         <UserList />
         <MyComponent />
+        <LoginForm />
       </div>
     </>
   );
